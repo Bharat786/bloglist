@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render,get_object_or_404,redirect
 from django.http import Http404
-from .models import Post,Comment
+from .models import Post , Comment
 from datetime import datetime
 from .forms import CommentForm
 
